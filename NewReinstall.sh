@@ -200,7 +200,7 @@ function Start() {
   if [[ "$isCN" == '1' ]];then
     CMIRROR="--mirror http://mirrors.aliyun.com/centos/"
     CVMIRROR="--mirror http://mirrors.tuna.tsinghua.edu.cn/centos-vault/"
-    DMIRROR="--mirror http://mirrors.aliyun.com/debian/"
+    DMIRROR="--mirror https://mirrors.tuna.tsinghua.edu.cn/debian/"
     UMIRROR="--mirror http://mirrors.aliyun.com/ubuntu/"
     SYSMIRROR1='http://disk.29296819.xyz/d/dd/os/veip007/CentOS-7.img.gz'
     SYSMIRROR2='http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_7.X_x64_Legacy_NetInstallation_Final_v9.8.vhd.gz'
